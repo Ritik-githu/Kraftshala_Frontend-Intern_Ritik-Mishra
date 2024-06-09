@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Weather App</h1>
+      <button id="toggle-dark-mode">Dark Mode</button>
+    </header>
+    <div class="search-container">
+      <form id="search-form">
+        <input type="text" id="location-input" placeholder="Enter city name or zip code" required>
+        <button type="submit">Search</button>
+      </form>
+    </div>
+    <div id="weather-display" class="weather-display">
+      <!-- Weather information will be displayed here -->
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

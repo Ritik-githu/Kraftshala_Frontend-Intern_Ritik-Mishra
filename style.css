@@ -1,0 +1,96 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  #toggle-dark-mode {
+    background: none;
+    border: 2px solid #333;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .search-container {
+    margin-bottom: 20px;
+  }
+  
+  #search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #location-input {
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    margin-right: 10px;
+    flex: 1;
+  }
+  
+  #search-form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .weather-display {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  .weather-display h2 {
+    margin: 0;
+  }
+  
+  .dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .dark-mode #toggle-dark-mode {
+    border-color: #fff;
+  }
+  
+  .dark-mode #search-form button {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .dark-mode .container {
+    background-color: #444;
+  }
+  
